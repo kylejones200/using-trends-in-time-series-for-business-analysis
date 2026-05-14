@@ -30,14 +30,12 @@ Nonparametric methods can be more flexible in adapting to changes in the trend. 
 Additionally, the sensitivity of the trend estimate to outliers can also impact forecasting. If the time series contains significant outliers or unusual events, a parametric approach that is heavily influenced by these observations may produce less reliable forecasts. In such cases, a nonparametric method that is more robust to outliers, such as the median-based trend, may be preferable.
 
 #### Advantages and disadvantages of parametric and nonparametric methods
-**Parametric Trend Analysis**
-
+Parametric Trend Analysis
 Advantages: Parametric models require the estimation of a relatively small number of parameters, which can make them computationally efficient and easier to interpret (aka Parsimonious models). Parametric models can be used to extrapolate the trend beyond the observed data, allowing for forecasting. Parametric methods make it easy to calculate inference values.
 
 Disadvantages: Parametric methods assume the data is independent and identically distributed (which is not true for time series). The mean-based estimation used in parametric methods can be heavily influenced by outliers or extreme observations, leading to distorted trend estimates.
 
-**Nonparametric Trend Analysis**
-
+Nonparametric Trend Analysis
 Advantages: Nonparametric methods are more flexible and do not impose a predetermined functional form on the trend. Nonparametric approaches are more resistant to the influence of outliers and extreme values. Nonparametric methods generally require fewer assumptions about the underlying data-generating process, making them more widely applicable.
 
 Disadvantages: Nonparametric methods can be less intuitive and harder to interpret than parametric models, as they do not provide a clear mathematical representation of the trend. Nonparametric approaches (like moving averages) may not be as well-suited for extrapolating the trend beyond the observed data, limiting their usefulness for forecasting. Nonparametric methods can be more computationally intensive, especially for large datasets or complex trend patterns.
@@ -45,7 +43,7 @@ Disadvantages: Nonparametric methods can be less intuitive and harder to interpr
 In real life, the choice between parametric and nonparametric trend analysis depends on the specific characteristics of the time series, the objectives of the analysis, and the tradeoffs between accuracy, interpretability, and computational requirements.
 
 #### Reflection Question
-**How can different trend identification methods impact forecasting?** The choice of trend identification method can have significant implications for forecasting future values of the time series. Parametric methods, such as linear regression, rely on the assumption that the trend will continue in a linear fashion. This may work well if the underlying trend is indeed linear and stable over time. However, if the trend exhibits nonlinearities or structural changes, parametric models may struggle to capture these dynamics, leading to biased or inaccurate forecasts.
+How can different trend identification methods impact forecasting? The choice of trend identification method can have significant implications for forecasting future values of the time series. Parametric methods, such as linear regression, rely on the assumption that the trend will continue in a linear fashion. This may work well if the underlying trend is indeed linear and stable over time. However, if the trend exhibits nonlinearities or structural changes, parametric models may struggle to capture these dynamics, leading to biased or inaccurate forecasts.
 
 ### Related Stories
 - [[ARIMA Models and Time Series Forecasting for Business Analytics](https://medium.com/@kylejones_47003/arima-models-and-time-series-forecasting-for-business-analytics-97c5c870e9c6)]
