@@ -11,14 +11,7 @@ In this post we look at parametric and nonparametric methods for identifying tre
 
 When analyzing time series data, one of the first steps is to identify any underlying trends. A parametric approach to trend identification involves fitting a predetermined model or function to the data. The most common parametric method is linear regression, where a straight line is fit to the data using the method of least squares. This approach assumes that the time series can be described by an equation:
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
